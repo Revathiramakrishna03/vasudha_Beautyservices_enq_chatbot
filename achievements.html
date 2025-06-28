@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Vasudha Makeup Artistry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Vasudha Makeup Artistry</h1>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <h2>Our Achievements</h2>
+        <p>We are proud of our achievements and the recognition we have received in the industry.</p>
+    </div>
+
+    <section id="achievements">
+        <div class="achievements-grid">
+            <div class="achievement-card">Awarded Best Makeup Artist in 2022</div>
+            <div class="achievement-card">Featured in Top Beauty Magazines</div>
+            <div class="achievement-card">Collaborated with Top Fashion Designers</div>
+            <div class="achievement-card">Trained by Top Makeup Artists in the Industry</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vasudha Makeup Artistry. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot-container">
+        <div class="chatbot-button" onclick="toggleChatbot()">💬</div>
+        <div class="chat-window" id="chatbot-window">
+            <div class="chat-header">Chatbot <span onclick="toggleChatbot()" style="cursor:pointer;">X</span></div>
+            <div class="chat-messages" id="chatbot-messages"></div>
+            <div class="chat-input">
+                <input type="text" id="chatbot-input" placeholder="Type a message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

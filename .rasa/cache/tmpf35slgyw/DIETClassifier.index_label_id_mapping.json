@@ -1,0 +1,20 @@
+{
+  "0": "affirm",
+  "1": "bot_challenge",
+  "2": "deny",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "inquire_allergy",
+  "6": "inquire_appointment",
+  "7": "inquire_cancellation",
+  "8": "inquire_group_booking",
+  "9": "inquire_location",
+  "10": "inquire_loyalty_program",
+  "11": "inquire_owner",
+  "12": "inquire_payment",
+  "13": "inquire_services",
+  "14": "mood_great",
+  "15": "mood_unhappy",
+  "16": "request_feedback",
+  "17": "request_social_media"
+}

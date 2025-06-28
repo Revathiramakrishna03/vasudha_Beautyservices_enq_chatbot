@@ -1,0 +1,85 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+- story: user_inquires_services
+  steps:
+  - intent: inquire_services
+  - action: utter_services
+
+- story: user_inquires_owner
+  steps:
+  - intent: inquire_owner
+  - action: utter_owner
+
+- story: user_inquires_location
+  steps:
+  - intent: inquire_location
+  - action: utter_location
+
+- story: user_inquires_appointment
+  steps:
+  - intent: inquire_appointment
+  - action: utter_appointment
+
+- story: user_inquires_payment_policy
+  steps:
+  - intent: inquire_payment
+  - action: utter_payment_policy
+
+- story: user_inquires_cancellation_policy
+  steps:
+  - intent: inquire_cancellation
+  - action: utter_cancellation_policy
+
+- story: user_inquires_allergy
+  steps:
+  - intent: inquire_allergy
+  - action: utter_allergy
+
+- story: user_inquires_group_booking
+  steps:
+  - intent: inquire_group_booking
+  - action: utter_group_booking
+
+- story: user_requests_feedback
+  steps:
+  - intent: request_feedback
+  - action: utter_feedback
+
+- story: user_requests_social_media
+  steps:
+  - intent: request_social_media
+  - action: utter_social_media
+
+- story: user_inquires_loyalty_program
+  steps:
+  - intent: inquire_loyalty_program
+  - action: utter_loyalty_program

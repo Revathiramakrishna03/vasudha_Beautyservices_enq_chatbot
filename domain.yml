@@ -1,0 +1,78 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - inquire_services
+  - inquire_owner
+  - inquire_location
+  - inquire_appointment
+  - inquire_payment
+  - inquire_cancellation
+  - inquire_allergy
+  - inquire_group_booking
+  - request_feedback
+  - request_social_media
+  - inquire_loyalty_program
+  
+responses:
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_greet:
+  - text: "Hello! Welcome to Vasudha Makeup Artistry. How can I assist you today?"
+
+  utter_services:
+  - text: "We offer makeup, hairstyles,mehendi and saree draping services."
+  
+  utter_owner:
+  - text: "The owner is Kumari, with over 20 years of experience in the field."
+  
+  utter_location:
+  - text: "our location is at vizag and we are free to work out of station also"
+  
+  utter_appointment:
+  - text: "Yes, we recommend booking an appointment ahead of time to ensure availability."
+  
+  utter_payment_policy:
+  - text: "we accept UPI , cash and netbanking"
+  
+  utter_cancellation_policy:
+  - text: "directly contact the owner for cancellation "
+  
+  utter_allergy:
+  - text: "Please inform us during your consultation, and we'll customize services accordingly."
+  
+  utter_group_booking:
+  - text: "Yes, group bookings are available, ideal for bridal parties and events."
+  
+  utter_feedback:
+  - text: "We welcome your feedback via email or through our social media channels."
+  
+  utter_social_media:
+  - text: "Yes, you can find us on instagram,google and justdail."
+  
+  utter_loyalty_program:
+  - text: "Yes, we have a loyalty program to reward returning clients."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

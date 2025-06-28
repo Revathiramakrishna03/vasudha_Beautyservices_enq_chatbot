@@ -1,0 +1,18 @@
+{
+  "0": "affirm",
+  "1": "ask_appointment",
+  "2": "ask_cancellation",
+  "3": "ask_consultation",
+  "4": "ask_payment_policy",
+  "5": "bot_challenge",
+  "6": "deny",
+  "7": "goodbye",
+  "8": "greet",
+  "9": "inquire_health_safety",
+  "10": "inquire_location",
+  "11": "inquire_owner",
+  "12": "inquire_services",
+  "13": "inquire_trial",
+  "14": "mood_great",
+  "15": "mood_unhappy"
+}

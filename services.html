@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Vasudha Makeup Artistry</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <h1>Vasudha Makeup Artistry</h1>
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="achievements.html">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </div>
+
+    <div class="hero">
+        <h2>Our Services</h2>
+        <p>We offer a variety of services to cater to your beauty needs.</p>
+    </div>
+
+    <section id="services">
+        <div class="services-grid">
+            <div class="service-card">Makeup</div>
+            <div class="service-card">Hairstyles</div>
+            <div class="service-card">Saree Draping</div>
+            <div class="service-card">Bridal Mehendi</div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Vasudha Makeup Artistry. All rights reserved.</p>
+    </footer>
+
+    <div class="chatbot-container">
+        <div class="chatbot-button" onclick="toggleChatbot()">💬</div>
+        <div class="chat-window" id="chatbot-window">
+            <div class="chat-header">Chatbot <span onclick="toggleChatbot()" style="cursor:pointer;">X</span></div>
+            <div class="chat-messages" id="chatbot-messages"></div>
+            <div class="chat-input">
+                <input type="text" id="chatbot-input" placeholder="Type a message...">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

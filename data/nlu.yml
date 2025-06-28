@@ -1,0 +1,150 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: inquire_services
+  examples: |
+    - What services do you provide?
+    - Can you tell me about your services?
+    - What types of makeup services do you offer?
+    - Do you provide mehendi services?
+    - What hairstyles can you create?
+    - What saree draping styles do you offer?
+    - Do you provide hair styling for events?
+
+- intent: inquire_owner
+  examples: |
+    - Who is the owner of VASUDHA MAKEUP ARTISTRY?
+    - Who runs the makeup artistry?
+
+- intent: inquire_location
+  examples: |
+    - Where are you located?
+    - What is your studio address?
+
+- intent: inquire_appointment
+  examples: |
+    - Do I need to schedule an appointment in advance?
+    - Should I book an appointment ahead of time?
+
+- intent: inquire_payment
+  examples: |
+    - What is your payment policy?
+    - Do you require a deposit to secure my booking?
+
+- intent: inquire_cancellation
+  examples: |
+    - What is your cancellation policy?
+    - Can I reschedule my appointment?
+
+- intent: inquire_allergy
+  examples: |
+    - What if I have allergies to certain products?
+    - Do you cater to clients with sensitive skin?
+
+- intent: inquire_group_booking
+  examples: |
+    - Do you offer group bookings for events?
+    - Can I book multiple services on the same day?
+
+- intent: request_feedback
+  examples: |
+    - How can I provide feedback after my services?
+    - What is the best way to give feedback?
+
+- intent: request_social_media
+  examples: |
+    - Can I follow you on social media?
+    - Do you have social media accounts?
+
+- intent: inquire_loyalty_program
+  examples: |
+    - Is there a loyalty program for repeat clients?
+    - Do you have any rewards for returning clients?
